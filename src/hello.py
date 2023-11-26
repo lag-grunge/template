@@ -1,7 +1,7 @@
 import json
 from flask import Flask, request
 from werkzeug.exceptions import BadRequest
-from src.db import insert_db, read_db, update_db
+from db import insert_db, read_db, update_db
 
 app = Flask(__name__)
 
